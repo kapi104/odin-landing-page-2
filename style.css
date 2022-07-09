@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-    width: 1500px;
+    width: 1200px;
     height: 60px;
     margin-bottom: 70px;
     display: flex;
@@ -50,3 +50,48 @@ body {
     margin-left: 19px;
 }
 
+.hero {
+    width: 1200px;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.herocontent, .heroimage {
+    flex: 1;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.herohead {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 650;
+}
+
+.herocontent span {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.herocontent button {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-start;
+    background-color: #3882f6;
+    height: 40px;
+    width: 150px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.heroimage {
+    background-color: grey;
+    text-align: center;
+}
