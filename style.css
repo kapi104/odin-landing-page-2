@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .white {
@@ -183,4 +184,9 @@ body {
     width: 150px;
     border: 3px solid #e5e7eb;
     border-radius: 10px;
+}
+
+.footer {
+    color: #e5e7eb;
+    padding: 20px 0;
 }
