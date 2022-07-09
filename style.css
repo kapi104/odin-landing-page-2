@@ -28,3 +28,25 @@ body {
     background-color: #3882f6;
 }
 
+.header {
+    width: 1500px;
+    height: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.hlink a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 19px;
+}
+
